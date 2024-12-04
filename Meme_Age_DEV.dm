@@ -24943,8 +24943,48 @@ These diehard fans are much more fanatic and wear brightly coloured robes to sho
 #montagweight 1
 #end
 
---#newmonster 6202 --Its over, theres no chorus slave unit tag
---#end
+--CHORUS SLAVE TAG ADDED, WE ARE SO BACK
+--MERROW
+#newmonster 6202
+#name "Cheering Fan"
+#descr "Some Merrow fans of the new Morgen Idols are content with supporting their Idols from under the waves. They would much rather be attending concerts, and are quick to flee the battlefield. They fight with cheersticks in the colours of bronze and crystal. These fans have not any talent for magic themselves, but cheering on their Idols is enough for their dreams to manifest in reality, boosting the power of spellsinger magic."
+#spr1 "./Ys/memeys_merrow_cheeringfan.tga"
+#spr2 "./Ys/memeys_merrow_cheeringfan2.tga"
+#nametype 142 --Tir na n'Og male
+
+--Costs
+#rcost 1
+#gcost 50
+#rpcost 10000
+#reclimit 1
+#reqlab
+--Attributes
+#hp 14
+#size 3
+#prot 2
+#mr 11
+#mor 10
+
+#str 12
+#att 9
+#def 9
+#prec 10
+#ap 11
+#mapmove 14
+#enc 3
+
+--Weapons and Armour
+#weapon 1644 --Cheer Stick of Bronze
+#weapon 1645 --Cheer Stick of Crystal
+
+--Modifiers
+#humanoid
+#amphibian
+#slave
+#older 5
+#darkvision 50
+#chorusslave
+#end
 
 --HUMAN
 #newmonster 6203
@@ -25769,7 +25809,7 @@ Priests: Powerful. Morgen Idols are Priests capable of encouraging their fans."
 #addrecunit 6204 -- Security Cavalry
 --#addrecunit 6201 -- Merrow Direhard Idol Fan
 #uwrec 6200 -- Merrow Idol Fan
---#uwrec 6202 -- THERE IS NO CHORUS SLAVE TAG
+#uwrec 6202 -- Cheering Fan (WE ARE SO BACK)
 #uwrec 2908 -- Ysian Spearman
 #uwrec 2923 -- Ysian Infantry
 #uwrec 2909 -- Ysian Man at Arms
